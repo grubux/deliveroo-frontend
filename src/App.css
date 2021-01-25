@@ -276,3 +276,30 @@
 .menu-item {
   display: flex;
 }
+
+.header-text {
+  margin-right: 30px;
+}
+
+.header-text h1 {
+  font-size: 32px;
+  line-height: 26.7px;
+  font-weight: 600;
+  margin: 9.6px 0 32px;
+  color: #2e3333;
+}
+
+.header-text p {
+  margin: 19.2px 0;
+  font-size: 19px;
+  line-height: 28.8px;
+  color: #868a8a;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 20px;
+  font-weight: 700;
+  padding: 20px 0;
+}

@@ -62,8 +62,8 @@ const App = () => {
           </div>
           <div className="wrapper">
             <div className="restaurant-info">
-              <div>
-                <p>{restaurant.name}</p>
+              <div className="header-text">
+                <h1>{restaurant.name}</h1>
                 <p>{restaurant.description}</p>
               </div>
 
