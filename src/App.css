@@ -1,0 +1,278 @@
+.header {
+  border-bottom: 1px solid #eaebeb;
+  height: 60px;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  height: 60px;
+}
+
+.restaurant-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.restaurant-info > img {
+  width: 350px;
+}
+
+.grey-back {
+  background-color: #f4f4f5;
+}
+.restaurant-details {
+  display: flex;
+  flex-direction: row;
+}
+
+.basket {
+  width: 350px;
+}
+
+.meals {
+  width: 100%;
+  flex: 1;
+  flex-direction: column;
+}
+
+.meals-container {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.meal-container {
+  border-radius: 5px;
+  height: 100%;
+  min-height: 10px;
+  width: 370px;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  margin-bottom: 20px;
+  background-color: white;
+}
+.MenuItem--picture > img {
+  height: 130px;
+  width: 130px;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+.meal-container > div {
+  display: flex;
+  float: 1;
+}
+
+.meal-horizontal {
+  display: flex;
+  flex-direction: row;
+}
+
+.meal-infos-description {
+  color: grey;
+}
+
+.cart {
+  width: 350px;
+  background-color: #fff;
+  box-shadow: 0 22px 24px 0 rgb(46 51 51 / 7%);
+  border-radius: 4px;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin: 30px 0;
+  padding: 1rem;
+  box-sizing: border-box;
+  position: sticky;
+  top: 30px;
+}
+
+.valider {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  background-color: #00cdbd;
+  font-size: 1rem;
+}
+
+.cart-middle-section-full {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+}
+
+.cart-button-empty {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  /* margin: 10px; */
+  border: 0;
+  border-radius: 5px;
+  color: #8b9a9b;
+  background-color: #bac3c3;
+  font-size: 1rem;
+}
+
+.cart-empty {
+  color: #a5a8a8;
+  margin: auto;
+  display: flex;
+  height: 114px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 114px;
+}
+
+.product-line-main-container {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  box-sizing: border-box;
+}
+
+.product-price {
+  display: flex;
+  /* background-color: violet; */
+  /* color: red; */
+  justify-content: flex-end;
+}
+
+.product-buttons {
+  display: flex;
+  line-height: 20px;
+}
+
+.product-title {
+  width: 179px;
+  display: flex;
+  flex: 1;
+  padding-left: 1rem;
+}
+
+.totals-line-main-container {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  /* background-color: green; */
+  padding: 0.25rem 0;
+  box-sizing: border-box;
+}
+
+.totals-line-main-container div:first-child {
+  display: flex;
+  flex: 1;
+}
+
+.totals-line-main-container div:last-child {
+  display: flex;
+  /* background-color: red; */
+  justify-content: flex-end;
+}
+
+.result-line {
+  align-items: center;
+}
+
+.absolute-totals-line-main-container {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  /* background-color: green; */
+  box-sizing: border-box;
+  padding-top: 1rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.absolute-totals-line-main-container div:first-child {
+  display: flex;
+  flex: 1;
+}
+
+.absolute-totals-line-main-container div:last-child {
+  display: flex;
+  /* background-color: red; */
+  justify-content: flex-end;
+}
+
+.product-global {
+  padding: 0.25rem 0;
+}
+
+.under-total-group {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #d1d7d7;
+  border-top: 1px solid #d1d7d7;
+}
+
+.button-minus {
+  margin-right: 3px;
+  cursor: pointer;
+}
+
+.button-plus {
+  margin-left: 3px;
+  cursor: pointer;
+}
+
+.MenuItem--price {
+  color: #808484;
+  font-size: 1.1rem;
+}
+
+.MenuItem--popular {
+  color: #ff8000;
+  font-size: 0.8rem;
+  margin-left: 1rem;
+  font-weight: 800;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.menu-title {
+  font-weight: 500;
+  margin: 0 0 0.5rem;
+  flex: 1 1;
+  margin-right: 15px;
+}
+
+.meal-infos {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1;
+  margin-right: 15px;
+  height: 128px;
+  justify-content: space-between;
+}
+
+.meal-infos-descriptions {
+  font-size: 0.9rem;
+  color: #808484;
+  line-height: 1.3rem;
+  height: 2.6rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0 0 1rem;
+}
+
+.menu-item {
+  display: flex;
+}
